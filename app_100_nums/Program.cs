@@ -43,13 +43,13 @@
             File.WriteAllText(primeFile, string.Join(", ", primes));
             File.WriteAllText(fibFile, string.Join(", ", fibonacciNumbers));
 
-            // 4. Відображення статистики на екран
-            Console.WriteLine("\n=== СТАТИСТИКА РОБОТИ ===");
-            Console.WriteLine($"Згенеровано та записано у {sourceFile}: 100 чисел.");
-            Console.WriteLine($"Знайдено простих чисел: {primes.Count} (збережено в {primeFile})");
-            Console.WriteLine($"Знайдено чисел Фібоначчі: {fibonacciNumbers.Count} (збережено в {fibFile})");
+            // Statistics
+            Console.WriteLine("\n=== Work Statistics ===");
+            Console.WriteLine($"Generated and recorded in {sourceFile}: 100 numbers.");
+            Console.WriteLine($"Prime numbers found: {primes.Count} (saved in {primeFile})");
+            Console.WriteLine($"Fibonacci numbers found: {fibonacciNumbers.Count} (saved in {fibFile})");
         }
-        // Перевірка на просте число
+        // check prime number
         static bool IsPrime(int n)
         {
             if (n < 2) return false;
@@ -60,7 +60,7 @@
             return true;
         }
 
-        // Перевірка на число Фібоначчі
+        // Check Fibonacci number
         static bool IsFibonacci(int n)
         {
             if (n < 0) return false;
