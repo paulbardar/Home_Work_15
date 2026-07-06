@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="app_100_nums/app_100_nums.csproj" />
+  <Project Path="search_word/search_word.csproj" />
+</Solution>
