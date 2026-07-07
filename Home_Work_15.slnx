@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="app_100_nums/app_100_nums.csproj" />
+  <Project Path="Censored_text/Censored_text.csproj" Id="6beb8490-db92-4a50-a4c0-5a28ae8d1dc7" />
   <Project Path="search_word/search_word.csproj" />
 </Solution>
